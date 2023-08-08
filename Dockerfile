@@ -16,4 +16,4 @@ RUN go build -o agora-cloud-recording -v main.go
 # Run the token server by default when the container starts.
 ENTRYPOINT ./agora-cloud-recording
 
-EXPOSE $SERVER_PORT                                             
+EXPOSE 9000                                          
