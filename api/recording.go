@@ -19,10 +19,10 @@ func startCall(c *fiber.Ctx) error {
 			"err": err.Error(),
 		})
 	}
-	uid := int(rand.Uint32())
+	//uid := int(rand.Uint32())
 	rec := &utils.Recorder{
 		Channel: u.Channel,
-		UID:     uid,
+		UID:     u.Uid,
 	}
 
 	_, err := rec.Acquire()

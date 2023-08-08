@@ -1,7 +1,7 @@
 package schemas
 
 type StartCall struct {
-	// Uid     int    `json:"uid"`
+	Uid     int    `json:"uid"`
 	Channel string `json:"channel"`
 }
 
